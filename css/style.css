@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #000000;
+    /* font-size: 20px; */
+    font-weight: 600;
+}
+
+p {
+    color: darkgray;
+}
+
+h2 .orange {
+    color: orange;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.developer {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.button:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.orange-hightlight {
+    color: orange;
+}
+
+.experience {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.item {
+    box-shadow: 10px 20px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #fff;
+}
+
+#stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+}
